@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@media screen and (max-width: 1920px) {
+    .border {
+        position: absolute;
+        top: 42%;
+        left: 50%;
+        width: 30%;
+        background-color: #E88372;
+        border-radius: 10px;
+        transform: translate(-50%, -50%);
+        border: 3px solid #E88372;
+    }
+
+    .buttons {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    p {
+        font-size: 30px;
+        position: absolute;
+        top: 53%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    img {
+        z-index: -2;
+        border: none;
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 69%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    html {
+        background: url(background.png);
+    }
+
+    .border {
+        position: absolute;
+        top: 42%;
+        left: 50%;
+        width: 69%;
+        background-color: #E88372;
+        border-radius: 10px;
+        transform: translate(-50%, -50%);
+        border: 3px solid #E88372;
+    }
+
+    .buttons {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    p {
+        font-size: 30px;
+        position: absolute;
+        top: 58%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    img {
+        z-index: -2;
+        border: none;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 72%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+h1 {
+
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.buttons button {
+    background-color: #E88372;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 75px;
+    height: 37.5px;
+    transition: transform 0.5s ease, background-color 0.2s ease;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 400;
+    margin: 5px;
+}
+
+.button:hover {
+    background-color: #fea99a;
+}
+
+body {
+    background: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 400;
+}
